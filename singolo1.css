@@ -1,0 +1,48 @@
+html{
+font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+}
+.wrapper{
+    /* border: red 1px solid; */
+    width:1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+
+}
+header{
+   
+    width:1200px;
+    border:green 1px solid;
+    height: 94px;
+    margin-left: auto 0;
+    margin-right:auto 0;
+   
+}
+
+.navigation li{
+    display: inline;
+    border: 1px solid pink;
+    list-style: none;
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    margin-right: 35px; /*делаем расстояния между менюшками*/
+  
+   
+}
+li a {
+    text-decoration: none;
+}
+.header__navigation {
+    border:1px black solid;
+    text-align: right;
+    margin: 0 auto; /*убираем верхнее и нижнее поле, равное 1em*/
+    /* vertical-align: middle; */
+    padding-bottom:20px;
+}
+
+
+
+
