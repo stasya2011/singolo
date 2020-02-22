@@ -1,20 +1,31 @@
 html{
 font-size: 10px;
+
+
 }
 body{
     font-size: 1.6rem;
     font-style: normal;
-}
-.wrapper{
-    margin-right:30px;
-    margin-left:30px;
-}
+    position: absolute;
 
+
+}
 header, footer, .slider{
     width: 100%;
     max-width: 1020px;
   
+   
 }
+
+
+
+.wrapper{
+    margin-right:30px;
+    margin-left:30px;
+     line-height: 150%;  
+}
+
+
 
 header{
     
@@ -37,10 +48,7 @@ h1, .href {
     color: #a3a3a6;
   
 }
-.header__navigation .href:hover{
-    color: #d6645e;
-}
-
+ 
 
 .shadow{
        
@@ -72,100 +80,107 @@ h1, .href {
     text-decoration: none;  
    
 }
-.wrapper:after {  
-    display: table;
-    clear: both;
-}
 
 
 
 .slider{ 
     height: 600px;
     background-color: #f06c64;
-    margin-left: auto 0;
-    margin-right:auto 0;
     position: relative;
 
-}
- 
+    }
     .phone_horizontal{ 
         position: absolute;
         right: 110px; top: 175px;
        
     }
     .phone_vertical{
-        transform: rotate(90deg);
+       /* border: brown 3px solid; */
+        /* transform: rotate(-90deg); */
         position: absolute;
-        top: 150px; left: 10px;      
+        top: 50px; left: 110px;      
         margin: 0px;      
+    }
+    .chev img{
+        position: absolute;
+        top: 250px; left: 10px; 
     }
         
    
-    .slider img{
-        border-radius: 20px;
-    }
-
-    
-
-
 
 
 footer{  
+    background-color: #f2f2f2;
     width: 1020px;
     height: 500px;
     font-size: 18px;
     color: #8a90aa;
-    background-color: #f2f2f2;
-}
-
-
-.our-services .wrapper{
+  }
+  .our-services .wrapper{
     padding-top: 60px;
     padding-left: 40px;  
         
-}
-
-
-
-.column-3{
-   width: 100%;
-    max-width: 300px;
-    height: 100px;
-    position: static;
-    font-size: 14px;
-    float: left;
-    margin-top: 30px;
-    
- 
-    }
-    .img-src{
-        position: static;
+    }   
+    .column-3{
         width: 100%;
-        max-width: 80px;
-        height: 150px;
-      
-        float: left;    
-    }
-    
-    h3{
-        margin-top: 0px;  
-        font-weight: 800; 
-        line-height: 100%;     
-               
-    }
-    h2{
+         max-width: 300px;
+         height: 100px;
+         position: static;
+         font-size: 14px;
+         float: left;
+         margin-top: 60px;  
+          
+         }
+     
+         .string .column-3 {
+             margin-top: 30px;           
+             
+         }
+         .img-src{
+             position: static;
+             width: 100%;
+             max-width: 80px;
+             height: 150px;
+             border-radius: 50%;      
+             float: left;    
+         }
+         
+         h3{
+             margin-top: 0px;  
+             font-weight: 800; 
+             line-height: 100%;     
+                    
+         }
+         h2{       
+             margin-top: 0px;
+             line-height: 100%;
+         }
        
-        margin-top: 0px;
-    }
+         .column-3 p {
+               
+             padding-right: 0px;
+         }
+         .column-3 .right{
+             margin: 0 auto;
+             padding:10px;
+         }  
+        
+         .href:hover{
+             color: #d6645e;
+         }
+     
+         .column-3 img:hover{
+             background-color: lightpink;
+             border-radius: 50%;
+         }
+         /* .chev img:hover{
+            background-color: rgb(66, 60, 61);
+        }
+        */
 
-    .column-3 p {
-        line-height: 150%;     
-        padding-right: 0px;
-    }
-    /* .column-3 .right{
-        margin:s 0 auto;
-        padding:20px;
-    } */
-
+  
+    
     
 
+
+    
