@@ -1,0 +1,127 @@
+
+section{
+    width: 1020px;
+    margin: auto;
+    line-height: 140%;
+    font-family: 'Lato', Verdana, sans-serif;
+    
+    
+}
+.wrapper{
+    margin-left: 30px;
+    margin-right: 30px;
+  
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left:10px;
+    color: #666d89;
+}
+
+.portfolio{
+    background-color: #2d303a;
+    height: 870px;
+}
+
+h1, h2{
+   font-size: 30px;   
+   
+}
+.text{
+    font-size: 18px;
+}
+
+button{
+    display: flex;
+    border: 1px solid #666d89;
+    margin-right: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;   
+    margin-left: 2px;
+    background-color: #2d303a;   
+   
+}
+button a{ 
+    text-decoration: none;
+    color: #666d89;
+  
+
+}
+
+
+.menu-4-columns, .portfolio-4-columns, .AboutUs-3-columns{
+    display: flex;   
+  
+}
+.portfolio-4-columns, .AboutUs-3-columns{
+    margin-top: 15px;
+    justify-content:space-between;
+}
+
+
+/* .shadow{
+    /* background-image: url(assets/shadow.png); */
+    /* background-color: white;
+    opacity: 1;
+    height: 5px;
+    padding: 0px;
+    margin: 0px;
+} */ 
+
+.AboutUs{
+    background-color: #f2f2f2;
+    height: 740px;
+}
+.AboutUs-3-columns{
+    margin-top: 45px;
+    justify-content:space-between;
+  
+}
+
+.AboutUs-3-columns-info{
+    display: flex;
+    justify-content:space-between;
+   
+    margin-top: 0px
+}
+
+.aboutUs-text, .info{
+    overflow: hidden;
+    line-height: 200%;
+    height: 55px;
+    text-overflow: clip;
+    
+}
+.info{
+    font-size: 12px;
+    height: 60px;
+    }
+    h3{
+        margin-top:7px;
+        margin-bottom:10px
+    }
+.AboutUs-3-columns-info div{
+    width: 300px;
+    padding-bottom: 0px;
+   }
+
+   .AboutUs-3-columns-info img{
+       margin-top: 5px;
+       margin-right: 5px;
+   }
+  button:hover,a:hover {
+    cursor: pointer;   
+    color: #c5c5c5;
+    border-color: #c5c5c5;
+ }
+ 
+ .AboutUs img:hover{
+    transform: scale(1.2);
+background-color: #c5c5c5;
+border-radius: 50%;
+
+ }
+ 
