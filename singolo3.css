@@ -5,11 +5,13 @@ section, footer{
     font-family: 'Lato', Verdana, sans-serif;   
    
 }
+
 .get-a-quote{
     background-color: #f06c64;
     height: 655px;
    
 }
+
 .wrapper{
     margin-left: 30px;
     margin-right: 30px;  
@@ -46,17 +48,25 @@ margin-bottom: 40px;
     position: relative;
 }
 
-input[type="submit"]{
+input[type="submit"],
+input[type="reset"]{
     width: 110px;
     color: #f0d8d9;
     border: none;
     background-color: #d6564f;
-    font-weight: 700;
-    
+    font-weight: 700;        
 
 }
 
-form input{
+.field::placeholder{
+    color: #f48c8f;
+
+}
+
+.field:hover:invalid{
+    border: red 2px solid;
+}
+form input {
     height: 40px; 
     border-radius: 10px;   
    
