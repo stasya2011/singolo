@@ -70,6 +70,10 @@ form input{
     color: #f0d8d9;
 }
 
+textarea{
+    resize: none;
+}
+
 .contact__contact{   
     width: 300px;
 }
